@@ -1,4 +1,4 @@
-#Aplicaci Cigo Binario
-Esta aplicaci hecha en Java permite mostrar de manera gr爁ica como funciona el cigo binario usando bombillas
+# Aplicaci贸n C贸digo Binario
+Esta aplicaci贸n hecha en Java permite mostrar de manera gr谩fica como funciona el c贸digo binario usando bombillas
 
-Esta aplicaci hecha en Java permite mostrar de manera gr爁ica como funciona el cigo binario usando bombillas
+![Imagen](https://github.com/YahirAdrian/codigo-binario-java/blob/master/src/recursos/app.png?raw=true "Captura de pantalla de la aplicaci贸n")
