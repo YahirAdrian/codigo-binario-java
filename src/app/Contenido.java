@@ -13,10 +13,10 @@ public class Contenido extends JPanel implements ActionListener{
 	JButton botones [] = {boton1, boton2, boton3, boton4, boton5, boton6, boton7, boton8};
 	JLabel decimalLabel = new JLabel("Decimal = 0");
 	
-	ImageIcon focoApagado = new ImageIcon("src/recursos/apagado.png");
+	ImageIcon focoApagado = new ImageIcon("./src/recursos/apagado.png");
 	Icon iconoApagado = new ImageIcon(focoApagado.getImage().getScaledInstance(50, 50, Image.SCALE_DEFAULT));
 	
-	ImageIcon focoEncendido = new ImageIcon("src/recursos/encendido.png");
+	ImageIcon focoEncendido = new ImageIcon("./src/recursos/encendido.png");
 	Icon iconoEncendido = new ImageIcon(focoEncendido.getImage().getScaledInstance(50, 50, Image.SCALE_DEFAULT));
 	
 	boolean estados [] = {false, false , false, false, false, false, false, false};
@@ -37,7 +37,7 @@ public class Contenido extends JPanel implements ActionListener{
 	public void inicializarBotones(JButton [] arrayBotones)
 	{
 		int width = 50, height = 50; 
-		ImageIcon imagen = new ImageIcon("src/recursos/apagado.png");
+		ImageIcon imagen = new ImageIcon("./src/recursos/apagado.png");
 		Icon icono = new ImageIcon(imagen.getImage().getScaledInstance(width, height, Image.SCALE_DEFAULT));
 		
 		String nombres [] = {"128", "64", "32", "16", "8", "4", "2", "1"};
